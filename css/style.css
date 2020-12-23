@@ -137,6 +137,7 @@ pre {
   width: 100%;
   padding: 3px;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .showcase-form input:focus {
