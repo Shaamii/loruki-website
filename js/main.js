@@ -2,7 +2,7 @@ document.querySelector("form").addEventListener("submit", handleSubmit);
 
 const handleSubmit = (e) => {
   e.preventDefault();
-  let myForm = document.getElementById("pizzaOrder");
+  let myForm = document.getElementById("myform");
   let formData = new FormData(myForm);
   fetch("/", {
     method: "POST",
